@@ -1,0 +1,23 @@
+{
+	"files": {
+		"Ej1-Variables/estilos.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "estilos.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"libreria.less"
+			]
+		}
+	}
+}
