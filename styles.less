@@ -1,0 +1,41 @@
+@ancho: 200px;
+@alto: 200px;
+@rojo: #FF0000;
+@azul: #0000FF;
+@color-fondo: #FF00FF;
+
+.caja{
+	width: @ancho;
+  	height: @alto;
+  	background-color: @color-fondo;
+  	.redondeado;
+  	.letra-destacada(10px, #110011);
+}
+
+.caja2{
+	.redondeado();
+  	.letra-destacada(4px, @rojo);
+}
+
+.caja3{
+	.redondeado();
+  	.letra-destacada(20px, @azul);
+}
+
+.redondeado{
+	float:left;
+  	width: @ancho;
+  	height: @alto;
+  	border: 1px solid #000000;
+  	border-radius: 10px;
+  	-webkit-border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-ms-border-radius: 0px;
+}
+
+.letra-destacada(@size: auto, @color: red){
+	font-size: @size;
+  	color: @color;
+  	text-transform: uppercase;
+  	font-family: sans-serif Verdana;
+}

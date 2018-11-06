@@ -1,0 +1,30 @@
+/*	VARIABLES	*/
+ul {
+  width: 250px;
+  height: 250px;
+  float: left;
+  background-color: #FFFFFF;
+  -webkit-overflow: hidden;
+  -moz-overflow: hidden;
+  -ms-overflow: hidden;
+  -o-overflow: hidden;
+  overflow: hidden;
+  border: 2px solid #111AAA;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 25px 25px 5px #AAAAAA;
+  -moz-box-shadow: 25px 25px 5px #AAAAAA;
+  box-shadow: 25px 25px 5px #AAAAAA;
+  margin: 10px;
+}
+ul li {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  background-color: #00FF00;
+}
+
+/*# sourceMappingURL=estilos.css.map */

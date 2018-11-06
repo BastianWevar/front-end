@@ -1,0 +1,38 @@
+/*	VARIABLES	*/
+.estandar {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+#caja1 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #FF0000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #AAAAAA;
+}
+#caja2 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #0000FF;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #AAAAAA;
+}
+#caja3 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #AAAAAA;
+}
+
+/*# sourceMappingURL=estilos.css.map */
